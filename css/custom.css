@@ -1,0 +1,22 @@
+:root {
+    --text-pink: #ffc5d4;
+    --text-purple: #a788e4;
+}
+
+
+.welcome-info {
+    background: url("../images/ffffffff.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.text-pink {
+    color: var(--text-pink);
+}
+
+.text-purple {
+    color: var(--text-purple);
+}
