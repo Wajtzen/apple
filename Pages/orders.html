@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin Panel - Users</title>
+    <title>Admin Panel - Orders</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/_custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,59 +35,57 @@
                 </a>
             </div>
         </div>
+
         <div class="col-sm-8 col-md-9 col-lg-10 p-4">
-            <h2>Users</h2>
+            <h2>Orders</h2>
             <div class="card mt-4">
                 <div class="card-header">
-                    <h5 class="mb-0">Registered Users</h5>
+                    <h5 class="mb-0">Recent Orders</h5>
                 </div>
                 <div class="card-body p-0">
                     <div class="table-responsive">
                         <table class="table table-hover mb-0">
                             <thead class="table-light">
                             <tr>
-                                <th>ID</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Role</th>
+                                <th>#</th>
+                                <th>Customer</th>
+                                <th>Date</th>
                                 <th>Status</th>
+                                <th>Total</th>
                                 <th>Actions</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <td>1</td>
-                                <td>Filip Kámen</td>
-                                <td>filip.kamen@email.cz</td>
-                                <td>Admin</td>
-                                <td><span class="badge bg-success">Active</span></td>
+                                <td>1001</td>
+                                <td>Jesse Pinkman</td>
+                                <td>2025-05-12</td>
+                                <td><span class="badge bg-success">Completed</span></td>
+                                <td>$850.00</td>
                                 <td>
                                     <button class="btn btn-sm btn-primary">View</button>
-                                    <button class="btn btn-sm btn-warning">Edit</button>
                                     <button class="btn btn-sm btn-danger">Delete</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>David Mikeš</td>
-                                <td>david.mikes@email.cz</td>
-                                <td>User</td>
-                                <td><span class="badge bg-secondary">Inactive</span></td>
+                                <td>1002</td>
+                                <td>Walter White</td>
+                                <td>2025-05-11</td>
+                                <td><span class="badge bg-warning text-dark">Pending</span></td>
+                                <td>$1000.00</td>
                                 <td>
                                     <button class="btn btn-sm btn-primary">View</button>
-                                    <button class="btn btn-sm btn-warning">Edit</button>
                                     <button class="btn btn-sm btn-danger">Delete</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td>Lukáš Vrt</td>
-                                <td>disciplina@email.cz</td>
-                                <td>User</td>
-                                <td><span class="badge bg-success">Active</span></td>
+                                <td>1003</td>
+                                <td>Saul Goodman</td>
+                                <td>2025-05-10</td>
+                                <td><span class="badge bg-danger">Cancelled</span></td>
+                                <td>$0.00</td>
                                 <td>
                                     <button class="btn btn-sm btn-primary">View</button>
-                                    <button class="btn btn-sm btn-warning">Edit</button>
                                     <button class="btn btn-sm btn-danger">Delete</button>
                                 </td>
                             </tr>
